@@ -63,8 +63,7 @@ st.markdown("""
 # Importing the data
 #==============================================================================
 
-data = pd.read_csv(r'C:\Users\jverayo\Downloads\NLP\data\dataset.csv', 
-                   encoding="Windows-1252", encoding_errors= 'replace')
+data = pd.read_csv('Data/dataset.csv')
 
 #==============================================================================
 #
@@ -230,7 +229,7 @@ st.markdown("""
             topic.<sup>2</sup> Based on these top words, the following topics were identified.
             """, unsafe_allow_html=True)
 
-top_words_per_topic = pd.read_csv('C:\\Users\\jverayo\\Downloads\\NLP\\data\\top_words_per_topic.csv')
+top_words_per_topic = pd.read_csv('Data/top_words_per_topic.csv')
 
 col1_topic, col2_topic, = st.columns([0.3, 0.7])
 
