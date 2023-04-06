@@ -146,7 +146,8 @@ stpwrdsongs = set(stopwords.words('english')).union(lyrics_stopwords)
 
 #Create a preprocessing function to apply to the lyrics
 # Source: Class notebook S2 Text_pre_processing_complete
-wpt = nltk.WordPunctTokenizer() 
+wpt = nltk.WordPunctTokenizer()
+python -m spacy download en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
 nlp.disable_pipes('ner')
 
