@@ -22,7 +22,7 @@ import matplotlib.colors as mcolors
 
 # Upload dataset initially
 
-results = pd.read_csv('C:\\Users\\jverayo\\Downloads\\NLP\\data\\results.csv')
+results = pd.read_csv('Data/results.csv')
 
 # Layout -----
 
