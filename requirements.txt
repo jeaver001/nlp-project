@@ -6,7 +6,6 @@ seaborn
 plotly
 nltk
 numpy
-re
 langdetect
 spacy
 contractions
