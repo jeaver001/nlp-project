@@ -4,3 +4,9 @@ wordcloud
 matplotlib
 seaborn
 plotly
+nltk
+numpy
+re
+langdetect
+spacy
+contractions
