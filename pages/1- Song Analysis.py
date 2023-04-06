@@ -37,8 +37,7 @@ st.markdown("---")
 #==============================================================================
 
 # Load the dataset
-data = pd.read_csv(r'C:\Users\jverayo\Downloads\NLP\data\dataset.csv', 
-                   encoding="Windows-1252", encoding_errors= 'replace')
+data = pd.read_csv('Data/dataset.csv')
 
 #Replace columns of the topics name
 data.rename(columns={"Topic1": "Heartbreak", "Topic2": "Going Out", "Topic3": "Street", "Topic4": "Regret & Desperation"}, inplace=True)
