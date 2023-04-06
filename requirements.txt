@@ -1,8 +1,6 @@
 streamlit
 pandas
 wordcloud
-matplotlib.pyplot
+matplotlib
 seaborn
-plotly.express
-matplotlib.colors
-plotly.graph_objects
+plotly
