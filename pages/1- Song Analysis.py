@@ -148,6 +148,7 @@ stpwrdsongs = set(stopwords.words('english')).union(lyrics_stopwords)
 # Source: Class notebook S2 Text_pre_processing_complete
 wpt = nltk.WordPunctTokenizer()
 python -m spacy download en_core_web_sm
+spacy.cli.download("en_core_web_sm")
 nlp = spacy.load('en_core_web_sm')
 nlp.disable_pipes('ner')
 
